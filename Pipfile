@@ -1,0 +1,17 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.org/simple"
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+asyncio = "*"
+pygpgo = "*"
+matplotlib = "*"
+opencv-python = "*"
+qtm = "*"
+
+[requires]
+python_version = "3.7"
